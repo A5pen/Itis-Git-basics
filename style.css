@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=MuseoModerno:wght@400;700&display=swap%27');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    width: 1024px;
+    margin: 0 auto;
+    font-family: "MuseoModerno", sans-serif;
+    margin-bottom: 100px;
+}
+
+.header
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.main-info
+{
+    width: 70%;
+}
+
+.main-info h1
+{
+    font-size: 4rem;
+    line-height: 4rem;
+    margin-bottom: 15px;
+}
+
+.avatar
+{
+    background: url("./assets/avatar.jpg");
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    background-position: center 10%;
+    border-radius: 50%;
+    margin-bottom: 50px;
+    margin-top: 50px;
+
+}
+
+.e-mail
+{
+    margin-bottom: 10px;
+}
+
+.edwork
+{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.workcode
+{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.section-title
+{
+    font-weight: bold;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.work
+{
+    margin-bottom: 100px;
+}
+
+.content, 
+.summary,
+.contacts
+{
+    font-size: 20px;
+}
+
+.edu
+{
+    width: 30%;
+}
+
+.skills
+{
+    margin-top: 100px;
+}
